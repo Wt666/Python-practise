@@ -1,7 +1,8 @@
 from os import write
 
 
-text = "This is my first test.\nThis is next line."
-my_file=open('my file.txt','w')
-my_file.write(text)
+append_text = "\nThis is appended file."
+my_file=open('my file.txt','a') 
+my_file.write(append_text)
 my_file.close()
+
