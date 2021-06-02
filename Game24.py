@@ -28,5 +28,5 @@ def game24(n1,n2,n3,n4):
 					except:
 						pass
 		print('No Result')
-game24(5,5,5,1)	                
+game24(7,9,8,10)	                
                 
