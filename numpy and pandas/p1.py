@@ -18,4 +18,4 @@ print(df2.values)
 print(df2.describe())
 print(df2.T)
 print(df2.sort_index(axis=0,ascending=False))
-print(df2.sort_values(by='E'))
+print(df2.sort_values(by='E')) #sort by specific value like SQL
