@@ -13,3 +13,7 @@ for column in A.T:
     print(column)
 for item in A.flat:
     print(item)
+
+B=np.arange(1,17).reshape((4,4))
+C=B.T
+print('C=\n',C)

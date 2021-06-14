@@ -1,6 +1,7 @@
 import numpy as np
 from numpy.lib.index_tricks import AxisConcatenator
 A=np.arange(2,14).reshape((3,4))
+print(A)
 print(np.argmin(A))
 print(np.argmax(A))
 print(np.mean(A)) #same as next line
