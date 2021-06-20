@@ -7,3 +7,6 @@ print(array)
 print('number of dimention:',array.ndim) 
 print('shape:',array.shape)
 print('size:',array.size)
+#How to calculate the reverse matrix
+A=np.array([1,1,1,2]).reshape((2,2))
+print(np.linalg.inv(A)) #can't be the singualr matrix
