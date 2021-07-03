@@ -30,4 +30,5 @@ _ = [plt.plot(np.arange(1000), simpmarket(0.5, play_cnt=1000,  stock_num=9, comm
                                                                 for _ in np.arange(0,trader)]
 _ = plt.hist([simpmarket(0.5, play_cnt=1000, stock_num=9, commission = 0)[-1] \
                                                               for _ in np.arange(0, trader)], bins=30)
+plt.xlim(0,1000)
 plt.show()

@@ -72,16 +72,136 @@
 # b=[i*2 for i in a]
 # # print(b)
 # plt.plot(a,b)
-# plt.show()
-numbers=[1,2,3,4,5324,324,324,234]
-sum=0
-for i in numbers:
-    sum=sum+i
-print(sum)
+# # plt.show()
 
-a=int(input("Enter a number:"))
-sum=0
-while a>0:
-    sum=sum+a
-    a=a-1
-print(sum)
+
+# a=int(input("Enter a number:"))
+# sum=0
+# while a>0:
+#     sum=sum+a
+#     a=a-1
+# print(sum)
+# import numpy as np
+# a=np.zeros(100)
+# b=binomial=np.random.binomial(10,0.5,1000)
+# print(b)
+# numbers=[1,2,3,4,5324,324,324,234]
+# sum=0
+# for i in numbers:
+#     sum=sum+i
+# print(sum)
+
+# genre=['pop','jazz','rock']
+# for i in range(len(genre)): # for i in range(3): i belongs to (0-3,not include 3)
+#     print('I like',genre[i])
+# else:
+#     print('nothing')
+
+# a=1.3
+# print(type(a))
+
+# import Game24
+# Game24.game24(2,3,4,5)
+
+
+
+# big=max('Hello world')
+# tiny=min('Hello world')
+# print(tiny)
+# print(big)
+
+
+
+# print(float(99)/100)
+# print(99/100)
+# i=1
+# print(float(i))
+# print('99/100')
+
+# sval='123'
+# print(type(sval))
+# print(sval+str(1))
+# print(sval,1)
+
+# x=1
+# def abc():
+#     print('hello world') #define a function
+
+# abc() #use the function
+# print(x)
+
+def PLUS(a,b): # define two parameters
+    c=a+b
+    return c
+print(PLUS(1,2))
+
+# def greet(lang):
+#     if lang == 'es':
+#         print('Hola')
+#     elif lang == 'fr':
+#         print('Bonjour')
+#     else:
+#         print('Hello')
+# greet('fr')
+# greet('China')
+# greet('es')
+# def greet():
+#     return 'lalala'
+# print(greet())
+# def greet(lang):  #lang is parameter
+#     if lang == 'es':
+#         return'Hola'
+#     elif lang == 'fr':
+#         return'Bonjour'
+#     else:
+#         return'Hello' # 'Hello' is result
+
+# print(greet('japan')) #'japan' is argument
+
+
+
+
+# def add(a,b):
+#     c=a+b
+#     return c
+# print(add(2,3))
+# def pay(hours,rate):
+#     bill=hours*rate
+#     return bill
+# print(pay(45,10))
+# import Pointdocstrings
+# p1=Pointdocstrings.Point()
+# p2=Pointdocstrings.Point()
+# p1.move(2,2)
+# p2.move(6,5)
+# print("CALLING: P1-x, P1-y is: ", p1.x, p1.y) 
+# print("CALLING: P2-x, P2-y is: ", p2.x, p2.y)
+# from Pointdocstrings import Point
+# p1 = Point() 
+# p2 = Point()
+# p1.move(2,2) 
+# p2.move(6,5)
+# print("CALLING: P1-x, P1-y is: ", p1.x, p1.y)
+# print("CALLING: P2-x, P2-y is: ", p2.x, p2.y)
+# print("CALLING: Distance from P1 to P2 is:", p1.calc_distance(p2))
+fun = 6 # Global variable
+# def multi():
+#     fun = 6 # Local variable
+#     fun = fun * 3
+#     print("I am a local variable called fun inside multi = ", fun) # Print local variable
+# multi()
+# print("I am a global variable called fun outside multi = ", fun)
+# def Greeting():
+#     name = 'Mary Poppins' 
+#     age = 200
+#     address = 'Far Far away'
+#     print(name)
+
+
+# import Pointdocstrings
+# p1=Pointdocstrings.Point()
+import Game24
+Game24.game24(4,5,6,7)
+
+
+

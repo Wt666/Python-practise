@@ -16,4 +16,4 @@ model.fit(data_X,data_y)
 print(model.coef_) 
 print(model.intercept_)
 # print(model.get_params()) 
-print(model.score(data_X,data_y))
+print(model.score(data_X,data_y)) #R^2 coefficient of determination

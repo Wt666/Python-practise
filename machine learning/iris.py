@@ -17,3 +17,4 @@ knn.fit(X_train,y_train)
 print(knn.predict(X_Test))
 print(y_test)
 print(np.sum((knn.predict(X_Test)==y_test)==True)/y_test.size)
+
