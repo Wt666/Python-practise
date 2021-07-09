@@ -3,8 +3,8 @@ A=np.arange(3,15).reshape((3,4))
 print(A)
 print(A[1][1]) #same as next line
 print(A[1,1])
-print(A[2,:]) #2nd row
-print(A[:,1]) #1st column
+print(A[2,:]) # 3rd row
+print(A[:,1]) # 2nd column
 print(A[1,1:3])
 #print(A.flatten())
 for row in A:
